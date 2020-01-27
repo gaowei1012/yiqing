@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-01-27 12:24:25
- * @LastEditTime : 2020-01-27 13:42:15
+ * @LastEditTime : 2020-01-27 14:46:41
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /yiqing/src/api.js
@@ -12,7 +12,7 @@ const Router = require('koa-router')
 const router = new Router()
 const app = new Koa()
 const port = 8089
-const host = '127.0.0.1'
+const host = 'localhost'
 
 
 router.get('/api/data', async(ctx, next) => {
